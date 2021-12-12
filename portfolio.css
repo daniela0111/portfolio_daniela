@@ -5,21 +5,21 @@
 }
 .topnav {
     overflow: hidden;
-  background-color: var(--details);
+  background-color: var(--background);
   position: relative;
 } 
 .topnav #links {
     display: none;
 }
 .topnav a {
-    color: var(--text);
+    color: var(--details);
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
     display: block;
 }
 .topnav a.icon {
-    background: var(--background);
+    background: var(--details);
     display: block;
     position: absolute;
     right: 0;
