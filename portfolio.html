@@ -4,10 +4,33 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="#">
+        <link rel="stylesheet" type="text/css" href="portfolio.css">
         <title>"Portfolio"</title>
     </head>
     <body>
-
+        <header>
+            <div class="topnav">
+                <a href="#" class="active">Daniela Fedorková</a>
+                <div id="links">
+                    <a href="#">Web projects</a>
+                    <a href="#">Photographies</a>
+                    <a href="#">Videos</a>
+                    <a href="#">Contact</a>
+                  </div>
+                  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
+        </header>
+        <script>
+            function myFunction() {
+             var x = document.getElementById("links");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+             x.style.display = "block";
+             }
+            }
+        </script>
     </body>
 </html>
