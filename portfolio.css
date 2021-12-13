@@ -57,16 +57,16 @@
     animation: slideShow 14s infinite;
     background-position: center;
     background-size: cover;
-    background-color: #3c3c3c09;
+    background-color: #3c3c3c;
     color: var(--details);
     font-size: 25px;
-    font-family: "#";
+    font-family: "omnes-pro";
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .back {
-    background-color: var(--background);
+    background-color: #3c3c3cb2;
     padding: 5px;
     border-radius: 5px;
     color: var(--details);
@@ -110,17 +110,41 @@ p {
     color: var(--text);
     font-family: "Omnes-pro";
     font-size: 18px;
-    margin: 10px;
+    margin: 20px;
 }
 .profile {
     margin: 10px;
     width: 100%;
-    max-width: 500px;
-    min-width: 100px;
+    max-width: 700px;
+    min-width: 150px;
 }
 .about {
     padding: 10px;
     margin-top: 0px;
+    text-align: justify;
+}
+.contact{
+    background-color: #FDAE91;
+}
+label{
+    font-size: 18px;
+    color: var(--text);
+    font-family: "omnes-pro";
+    margin: 20px;
+}
+input{
+    border-radius: 5px;
+    background-color: var(--navigation);
+    border: none;
+    color: var(--text);
+    
+}
+textarea{
+    border-radius: 5px;
+    background-color: var(--navigation);
+    border: none;
+    color: var(--text);
+    margin: 20px;
 }
 footer {
     display: flex;
@@ -150,7 +174,33 @@ footer {
         font-size: 25px;
         font-family: "omnes-pro";
         text-decoration: none;
+        margin-right: 40px;
+    }
+    #navline a:hover {
+        color: var(--details);
+    }
+    #navline .active {
+        color: var(--details);
+    }
+    .back{
+        font-size: 40px;
+        background-color: #3c3c3cb2;
+    }
+    .slideshow{
+        height: 100vh;
+    }
+    .profile{
+        margin: 30px;
+    }
+    p{
+        font-size: 35px;
+        margin: 30px;
+    }
+    label{
+        font-size: 35px;
+        margin: 30px;
+    }
+    .icons{
+        width: 50%;
     }
 }
-
-
