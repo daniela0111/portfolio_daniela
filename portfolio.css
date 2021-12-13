@@ -31,6 +31,9 @@
     background-color: var(--navigation);
     color: var(--details);
 }
+.nav{
+    display:none
+}
 
 @keyframes slideShow {
     0% {width: 100%; left: 100%}
@@ -128,6 +131,26 @@ footer {
     width: 30%;
     padding: 10px;
 }
-
+@media (min-width: 990px) {
+    .nav {
+      background-color: var(--background);
+      font-family: "Omnes-pro";
+      height:auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 20px;
+      margin: auto;
+    }
+    .topnav {
+        display: none;
+    }
+    #navline a {
+        color: var(--text);
+        font-size: 25px;
+        font-family: "omnes-pro";
+        text-decoration: none;
+    }
+}
 
 
