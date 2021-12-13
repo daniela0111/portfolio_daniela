@@ -8,6 +8,7 @@
     overflow: hidden;
   background-color: var(--background);
   position: relative;
+  font-family: "Omnes-pro";
 } 
 .topnav #links {
     display: none;
@@ -97,23 +98,21 @@ body {
     background-color: var(--background);
 }
 main{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-template-rows: auto;
-    row-gap: 2%;
-
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   padding: 5%;
 }
-.about {
-    grid-column: 2/3;
-
-}
-
 p {
     color: var(--text);
+    font-family: "Omnes-pro";
+    font-size: 18px;
 }
-.profile{
-    width: 80%;
-    padding: 20px;
-    grid-column: 1/2;
-    grid-row: 1;
+.profile img{
+    width: 100%;
+
+   
+}
+.profile {
+    width: 50%;
 }
