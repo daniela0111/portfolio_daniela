@@ -108,11 +108,11 @@ p {
     font-family: "Omnes-pro";
     font-size: 18px;
 }
-.profile img{
-    width: 100%;
-
-   
-}
 .profile {
-    width: 50%;
+    width: 100%;
+    max-width: 300px;
 }
+.about {
+    padding: 10px;
+}
+
