@@ -34,7 +34,7 @@
         </header>
         <main>
             <section class="Space">
-                <h1 id="s" figcaption="has" onclick='addtext1()';>The Space Odyssey</h1>
+                <h1 class="text" figcaption="has" onclick='addtext1()';>The Space Odyssey</h1>
                 <img class="web" src="./web/kosmonaut.jpg" alt="web of space odyssey">
                 <section class="hidden" id="spacetext">
                     <p>September 2021</p>
@@ -44,6 +44,51 @@
                         <li>Semantic code</li>
                     </ul>
                     <p>Web page for space company focus on traveling to space.  Based on simple design and eye catching picture with simple form to easily apply.</p>
+                </section>
+            </section>
+            <br>
+            <section class="Dance">
+                <h1 class="text" figcaption="has" onclick='addtext2()';>Contemporary Dance</h1>
+                <img class="web" src="./web/dance.jpg" alt="dance group">
+                <section class="hidden" id="dancetext">
+                    <p>October 2021</p>
+                    <ul>
+                        <li>Design decisions</li>
+                        <li>Mockup</li>
+                        <li>Semantic code</li>
+                        <li>Target group</li>
+                    </ul>
+                    <p>Web page for contemporary dance school in Copenhagen. Web page provide the necessary information for potential clients and with the help of design reflects the mood at school.</p>
+                </section>
+            </section>
+            <br>
+            <section class="Dance">
+                <h1 class="text" figcaption="has" onclick='addtext2()';>Contemporary Dance</h1>
+                <img class="web" src="./web/red.jpg" alt="bollywood">
+                <section class="hidden" id="bollytext">
+                    <p>November 2021</p>
+                    <ul>
+                        <li>Design</li>
+                        <li>Mockup</li>
+                        <li>Semantic code</li>
+                    </ul>
+                    <p>Taken over project with the idea of connecting Bollywood with Hygge. Page connected these lifestyles although they are opposites. The web page about us contains the history of the school and its development.</p>
+                </section>
+            </section>
+            <br>
+            <section class="app">
+                <h1 class="text" figcaption="has" onclick='addtext3()';>RoommateHUB</h1>
+                <img class="web" src="./web/study.jpg" alt="study place">
+                <section class="hidden" id="studytext">
+                    <p>October - December 2021</p>
+                    <ul>
+                        <li>Project manager</li>
+                        <li>Business model</li>
+                        <li>Semantic code</li>
+                        <li>Content plan for SoMe</li>
+                        <li>SoMe posts</li>
+                    </ul>
+                    <p>Develop business idea about a new app for co-living called roommateHUB. Visualization of the roommateHUB. Prepared the business model and found out how to financially cover the project. Web page clarifying frequently asked questions. The whole site works as an advertisement or application promotion for roommateHUB. Focus on simple design and structure.</p>
                 </section>
             </section>
         </main>
@@ -64,6 +109,12 @@
             }
             function addtext1(){
                         document.getElementById('spacetext').classList.toggle('hidden');}
+
+            function addtext2(){
+                        document.getElementById('dancetext').classList.toggle('hidden');}
+
+            function addtext3(){
+                        document.getElementById('studytext').classList.toggle('hidden');}
         </script>
     </body>
 </html>
