@@ -1,1 +1,69 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="webprojects.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://use.typekit.net/axo1oom.css">
+        <title>"Portfolio"</title>
+    </head>
+    <body>
+        <header>
+            <div class="topnav">
+                <a href="#" class="active">Web projects</a>
+                <div id="links">
+                    <a href="#">Daniela Fedorková</a>
+                    <a href="#">Photographies</a>
+                    <a href="#">Videos</a>
+                  </div>
+                  <a href="javascript:void(0);" class="icon" onclick="navigation()">
+                    <i class="fa fa-bars"></i>
+                  </a>
+            </div>
+            <!--web navigation-->
+            <div class="nav">
+                <div id="navline">
+                    <a class="active" href="#">Daniela Fedorková</a>
+                    <a href="#">Web projects</a>
+                    <a href="#">Photographies</a>
+                    <a href="#">Videos</a>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section class="Space">
+                <h1 id="s" figcaption="has" onclick='addtext1()';>The Space Odyssey</h1>
+                <img class="web" src="./web/kosmonaut.jpg" alt="web of space odyssey">
+                <section class="hidden" id="spacetext">
+                    <p>September 2021</p>
+                    <ul>
+                        <li>Design decisions</li>
+                        <li>Photoshop</li>
+                        <li>Semantic code</li>
+                    </ul>
+                    <p>Web page for space company focus on traveling to space.  Based on simple design and eye catching picture with simple form to easily apply.</p>
+                </section>
+            </section>
+        </main>
 
+        <footer>
+            <a href="#"><img class="icons" src="instagram-brands.png" alt="instagram"></a>
+            <a href="#"><img class="icons" src="youtube-brands.png"alt="youtube"></a>
+            <a href="#"><img class="icons" src="linkedin_brand.png" alt="linkedin"></a>
+        </footer>
+        <script>
+            function navigation() {
+             var x = document.getElementById("links");
+            if (x.style.display === "block") {
+            x.style.display = "none";
+            } else {
+             x.style.display = "block";
+             }
+            }
+            function addtext1(){
+                        document.getElementById('spacetext').classList.toggle('hidden');}
+        </script>
+    </body>
+</html>
