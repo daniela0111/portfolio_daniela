@@ -103,10 +103,21 @@ footer {
     #navline .active {
         color: var(--details);
     }
+    h1{
+        font-size: 40px;
+    }
     #s{
         margin-left: 50%;
     }
+    p{
+        font-size: 35px;
+        margin: 30px;
+    }
+    li{
+        font-size: 35px;
+        margin: 30px;
+    }
     .icons{
-        width: 40%;
+        width: 50%;
     }
 }
