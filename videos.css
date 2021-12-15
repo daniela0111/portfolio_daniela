@@ -44,6 +44,35 @@ p{
     font-family: "omnes-pro";
     margin: 20px;
 }
+li{
+    color: var(--text);
+    font-family: "omnes-pro";
+    font-size: 18px;
+}
+.text{
+    z-index: 1;
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 20%;
+    margin-right: 20%;
+}
+.hidden{
+    display: none;
+}
+main img{
+    width: 100%;
+}
+h1{
+    font-family: "omnes-pro";
+    color: var(--text);
+    text-align: center;
+}
+.link{
+    font-family: "Omnes-pro";
+    font-size: 18px;
+    color: var(--text);
+    margin: 20px;
+}
 footer {
     display: flex;
     justify-content: center;

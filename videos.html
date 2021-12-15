@@ -32,6 +32,21 @@
                 </div>
             </div>
         </header>
+        <main>
+            <section class="drone">
+                <h1 class="text" figcaption="has" onclick='addtext1()';>Drone video</h1>
+                <img class="web" src="./web/drone.jpg" alt="drone">
+                <section class="hidden" id="dronetext">
+                    <p>Since 2020</p>
+                    <ul>
+                        <li>Recording</li>
+                        <li>Post production (Premiere Pro)</li>
+                    </ul>
+                    <p>Drone video of swedish nature.</p>
+                    <a class="link" href="https://www.youtube.com/watch?v=RMal-QKCyaU">For video click here :)</a>
+                </section>
+            </section>
+            <br>
 
         <footer>
             <a href="https://www.instagram.com/danielle_0111/?hl=cs"><img class="icons" src="instagram-brands.png" alt="instagram"></a>
@@ -47,6 +62,10 @@
              x.style.display = "block";
              }
             }
+
+            function addtext1(){
+                        document.getElementById('dronetext').classList.toggle('hidden');}
+
         </script>
     </body>
 </html>
