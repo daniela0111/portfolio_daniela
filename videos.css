@@ -113,6 +113,17 @@ footer {
             font-size: 35px;
             margin: 30px;
         }
+    li{
+            font-size: 35px;
+            margin: 30px;
+        }
+    .link{
+            font-size: 35px;
+            margin: 30px;
+    }
+    h1{
+        font-size: 40px;
+    }
     .icons{
             width: 50%;
         }

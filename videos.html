@@ -15,7 +15,6 @@
                 <a href="videos.html" class="active">Videos</a>
                 <div id="links">
                     <a href="portfolio.html">Daniela Fedorková</a>
-                    <a href="#">Photographies</a>
                     <a href="webprojects.html">Web projects</a>
                   </div>
                   <a href="javascript:void(0);" class="icon" onclick="navigation()">
@@ -27,7 +26,6 @@
                 <div id="navline">
                     <a href="portfolio.html">Daniela Fedorková</a>
                     <a href="webprojects.html">Web projects</a>
-                    <a href="#">Photographies</a>
                     <a class="active" href="videos.html">Videos</a>
                 </div>
             </div>
@@ -47,7 +45,19 @@
                 </section>
             </section>
             <br>
-
+            <section class="denmark">
+                <h1 class="text" figcaption="has" onclick='addtext2()';>5 ways how to fit in Denmark</h1>
+                <img class="web" src="./web/denmark.jpg" alt="drone">
+                <section class="hidden" id="denmarktext">
+                    <p>September 2021</p>
+                    <ul>
+                        <li>Recording</li>
+                        <li>Set up</li>
+                    </ul>
+                    <p>Funny video about 5 ways how to fit in Denmark shows 5 short scenes of Danish stereotypes and how to avoid them.</p>
+                    <a class="link" href=https://www.youtube.com/watch?v=WE7vBXy9r4Q&t>For video click here :)</a>
+                </section>
+            </section>
         <footer>
             <a href="https://www.instagram.com/danielle_0111/?hl=cs"><img class="icons" src="instagram-brands.png" alt="instagram"></a>
             <a href="#"><img class="icons" src="youtube-brands.png"alt="youtube"></a>
@@ -65,6 +75,8 @@
 
             function addtext1(){
                         document.getElementById('dronetext').classList.toggle('hidden');}
+            function addtext2(){
+                        document.getElementById('denmarktext').classList.toggle('hidden');}
 
         </script>
     </body>
