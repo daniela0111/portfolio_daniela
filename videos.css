@@ -1,1 +1,90 @@
-
+:root {
+    --text: #FFFFFF;
+    --details: #FDAE91;
+    --background: #3C3C3C;
+    --navigation: #797979;
+}
+.topnav {
+    overflow: hidden;
+  background-color: var(--background);
+  position: relative;
+  font-family: "Omnes-pro";
+} 
+.topnav #links {
+    display: none;
+}
+.topnav a {
+    color: var(--text);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+}
+.topnav a.icon {
+    background: var(--background);
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.topnav a:hover {
+    background-color: var(--navigation);
+    color: var(--details);
+}
+.nav{
+    display:none
+}
+body {
+    margin: 0;
+    background-color: var(--background);
+}
+p{
+    color: var(--text);
+    font-size: 18px;
+    font-family: "omnes-pro";
+    margin: 20px;
+}
+footer {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.icons{
+    width: 30%;
+    padding: 10px;
+}
+ @media (min-width: 990px) {
+     .nav {
+         background-color: var(--background);
+         font-family: "Omnes-pro";
+          height:auto;
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          padding: 20px;
+          margin: auto;
+        }
+    .topnav {
+            display: none;
+        }
+    #navline a {
+            color: var(--text);
+            font-size: 25px;
+            font-family: "omnes-pro";
+            text-decoration: none;
+            margin-right: 40px;
+        }
+    #navline a:hover {
+            color: var(--details);
+        }
+    #navline .active {
+            color: var(--details);
+        }
+    p{
+            font-size: 35px;
+            margin: 30px;
+        }
+    .icons{
+            width: 50%;
+        }
+    }

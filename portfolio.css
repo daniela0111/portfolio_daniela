@@ -112,6 +112,16 @@ p {
     font-size: 18px;
     margin: 20px;
 }
+li{
+    color: var(--text);
+    font-family: "Omnes-pro";
+    font-size: 18px;
+    margin: 20px;
+}
+.black {
+    color: var(--background);
+    background-color: var(--details);
+}
 .profile {
     margin: 10px;
     width: 100%;
@@ -125,28 +135,6 @@ p {
 }
 .contact{
     background-color: #FDAE91;
-}
-label{
-    font-size: 18px;
-    color: var(--text);
-    font-family: "omnes-pro";
-    margin: 20px;
-}
-input{
-    border-radius: 5px;
-    background-color: var(--navigation);
-    border: none;
-    color: var(--text);
-    padding: 5px;
-    
-}
-textarea{
-    border-radius: 5px;
-    background-color: var(--navigation);
-    border: none;
-    color: var(--text);
-    margin: 20px;
-    padding: 10px;
 }
 footer {
     display: flex;
@@ -198,6 +186,10 @@ footer {
         text-align: justify;
     }
     p{
+        font-size: 35px;
+        margin: 30px;
+    }
+    li{
         font-size: 35px;
         margin: 30px;
     }
