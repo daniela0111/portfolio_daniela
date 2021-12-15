@@ -57,13 +57,19 @@ li{
 .text{
     z-index: 1;
     position: absolute;
-    margin-left: 20%;
-    margin-top: 20%;
-    margin-right: 20%;
 }
 .hidden{
     display: none;
 }
+
+.photo {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 main img{
     width: 100%;
 }
