@@ -51,17 +51,19 @@ li{
 }
 .text{
     z-index: 1;
-    position: absolute;
+    position: relative;
+    top: 13rem;
     color: var(--details);
     background-color: #3c3c3cb2;
     padding: 5px;
     border-radius: 5px;
 }
-.photo{
+.photo {
     width: 100%;
     display:flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 .hidden{
     display: none;
