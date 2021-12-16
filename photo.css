@@ -44,6 +44,13 @@ p{
     font-family: "omnes-pro";
     margin: 20px;
 }
+.foto img{
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 footer {
     display: flex;
     justify-content: center;
@@ -79,6 +86,10 @@ footer {
     }
     #navline .active {
         color: var(--details);
+    }
+    p{
+        font-size: 35px;
+        margin: 30px;
     }
     .icons{
         width: 50%;
