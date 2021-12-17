@@ -54,6 +54,12 @@ li{
     font-family: "omnes-pro";
     font-size: 18px;
 }
+a{
+    color: var(--text);
+    font-size: 18px;
+    font-family: "omnes-pro";
+    margin: 20px;
+}
 .text{
     z-index: 1;
     position: relative;
