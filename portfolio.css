@@ -136,6 +136,15 @@ li{
 .contact{
     background-color: #FDAE91;
 }
+.contact p{
+    color: var(--background);
+}
+.contact li{
+    color: var(--background);
+}
+.contact a{
+    color: var(--background);
+}
 footer {
     display: flex;
     justify-content: center;
