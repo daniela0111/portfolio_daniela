@@ -84,6 +84,9 @@ a{
 main img{
     width: 100%;
 }
+.pc{
+    display: none;
+}
 footer {
     display: flex;
     justify-content: center;
@@ -130,6 +133,10 @@ footer {
         font-size: 35px;
         margin: 30px;
     }
+    a{
+        font-size: 35px;
+        margin: 30px;
+    }
     li{
         font-size: 35px;
         margin: 30px;
@@ -137,6 +144,13 @@ footer {
     .text{
         top: 30rem;
      }
+    .mobile{
+        display:none;
+    }
+    .pc{
+        display: flex;
+        width: 100%;
+    }
     .icons{
         width: 50%;
     }
