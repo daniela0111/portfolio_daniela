@@ -57,7 +57,7 @@ li{
 .text{
     z-index: 1;
     position: relative;
-    top: 13rem;
+    top: 10rem;
     color: var(--details);
     background-color: #3c3c3cb2;
     padding: 5px;
